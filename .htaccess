@@ -1,0 +1,13 @@
+RewriteEngine On
+
+#First rewrite any request to the wrong domain to use the correct one (here www.)
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Now, rewrite to HTTPS:
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# www.reitwege-im-havelland.de => www.krv-hvl.de
+RewriteCond %{HTTP_HOST} ^www.reitwege-im-havelland.de$
+RewriteRule (.*)$ https://www.krv-hvl.de/$1 [R=301,L]

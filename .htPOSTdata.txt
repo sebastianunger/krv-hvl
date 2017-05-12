@@ -1,0 +1,12 @@
+Array
+(
+    [Anrede] => Herr
+    [Vorname] => Kreisreiterverband
+    [Nachname] => e.V. (Organisation)
+    [Strasse] => Hauptstraße 21
+    [PLZOrt] => Rathenow
+    [Phone] => 1622009123
+    [Email] => wetterfraser@web.de
+    [Nachricht] => ddddddddd
+    [Abschicken] => Abschicken
+)
