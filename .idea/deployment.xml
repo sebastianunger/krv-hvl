@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="www402.your-server.de" traceLevel="DETAILS">
+  <component name="PublishConfigData" serverName="www402.your-server.de">
     <serverData>
       <paths name="www402.your-server.de">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-            <mapping local="" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/doc" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
