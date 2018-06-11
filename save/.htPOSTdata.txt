@@ -1,0 +1,17 @@
+Array
+(
+    [Anrede] => Frau
+    [Vorname] => Stefanie
+    [Nachname] => Schulze Buschhoff
+    [Strasse] => Werderdammstr.20
+    [PLZOrt] => 14669 Paretz
+    [Phone] => 
+    [Email] => post@schubu.de
+    [Nachricht] => Hallo!
+Wir planen einen Dressurlehrgang mit Abendveranstaltung im havelländischen Paretz, und fragen uns, inwieweit wir mit dem Verband zusammenarbeiten könnten.
+Bitte meldet Euch bei mir.
+Meine Tel.Nr.: 0171 7119794
+Liebe Grüße 
+Stefanie Schulze Buschhoff
+    [Abschicken] => Abschicken
+)
